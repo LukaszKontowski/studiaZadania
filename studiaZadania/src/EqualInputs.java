@@ -29,7 +29,7 @@ public class EqualInputs {
         }
 
         int numberOfDuplicates = fiveStrings.size() - inputValues.size();
-        JOptionPane.showMessageDialog(null, "Liczba takich samych napisów: " + numberOfDuplicates);
+        JOptionPane.showMessageDialog(null, "Liczba powielonych takich samych napisów: " + numberOfDuplicates);
 
     }
 }
