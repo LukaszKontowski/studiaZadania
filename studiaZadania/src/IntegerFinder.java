@@ -56,6 +56,7 @@ public class IntegerFinder {
     private static Integer[] createArray(File inputFile) {
         Scanner scanner = createScanner(inputFile);
         List<Integer> integersFromFile = getAllIntegers(scanner);
+        scanner.close();
         return integersFromFile.toArray(new Integer[integersFromFile.size()]);
     }
 
